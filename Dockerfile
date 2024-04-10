@@ -7,6 +7,8 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y git python-is-python3 python3-catkin-tools \
+        ros-noetic-rqt-ez-publisher \
+        ros-noetic-rosbridge-suite \
         ros-noetic-joint-trajectory-controller \
         ros-noetic-moveit \
         ros-noetic-moveit-visual-tools \
